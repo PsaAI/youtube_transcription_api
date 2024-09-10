@@ -9,6 +9,8 @@ from dotenv import load_dotenv
 import logging
 import asyncio
 import tiktoken
+import eventlet
+eventlet.monkey_patch()
 
 load_dotenv()
 
