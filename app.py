@@ -1,3 +1,6 @@
+import eventlet
+eventlet.monkey_patch()
+
 from flask import Flask, request, jsonify
 from youtube_transcript_api import YouTubeTranscriptApi
 import re
@@ -9,8 +12,6 @@ from dotenv import load_dotenv
 import logging
 import asyncio
 import tiktoken
-import eventlet
-eventlet.monkey_patch()
 
 load_dotenv()
 
