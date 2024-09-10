@@ -36,3 +36,4 @@ youtube-transcript-api==0.6.2
 zipp==3.19.2
 gevent==24.2.1
 numpy==2.1.0
+pandas==2.2.2
